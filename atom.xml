@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>wb</title>
   
-  
+  <subtitle>wb</subtitle>
   <link href="http://wangbin5920.github.io/atom.xml" rel="self"/>
   
   <link href="http://wangbin5920.github.io/"/>
-  <updated>2022-03-28T05:26:34.227Z</updated>
+  <updated>2022-03-28T06:02:56.106Z</updated>
   <id>http://wangbin5920.github.io/</id>
   
   <author>
@@ -18,26 +18,27 @@
   
   <entry>
     <title>Java基础</title>
-    <link href="http://wangbin5920.github.io/2021/04/15/hello-world/"/>
-    <id>http://wangbin5920.github.io/2021/04/15/hello-world/</id>
+    <link href="http://wangbin5920.github.io/2021/04/15/java-ji-chu/"/>
+    <id>http://wangbin5920.github.io/2021/04/15/java-ji-chu/</id>
     <published>2021-04-14T16:00:00.000Z</published>
-    <updated>2022-03-28T05:26:34.227Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h1><p>。。。</p><h1 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h1><p>。。。</p><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1>]]></content>
+    <updated>2022-03-28T06:02:56.106Z</updated>
     
     
       
       
+        
+        
     <summary type="html">&lt;h1 id=&quot;第一章&quot;&gt;&lt;a href=&quot;#第一章&quot; class=&quot;headerlink&quot; title=&quot;第一章&quot;&gt;&lt;/a&gt;第一章&lt;/h1&gt;&lt;p&gt;。。。&lt;/p&gt;
-&lt;h1 id=&quot;第二章&quot;&gt;&lt;a href=&quot;#第二章&quot; class=&quot;headerlink&quot; title=&quot;第二章&quot;</summary>
+&lt;h1 id=&quot;第二章&quot;&gt;&lt;a href=&quot;#第二章&quot; class=&quot;headerlink&quot;</summary>
+        
       
     
     
     
+    <category term="java基础" scheme="http://wangbin5920.github.io/categories/java%E5%9F%BA%E7%A1%80/"/>
     
-    <category term="Typora" scheme="http://wangbin5920.github.io/tags/Typora/"/>
     
-    <category term="Markdown" scheme="http://wangbin5920.github.io/tags/Markdown/"/>
+    <category term="Java" scheme="http://wangbin5920.github.io/tags/Java/"/>
     
   </entry>
   

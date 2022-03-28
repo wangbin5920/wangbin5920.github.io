@@ -5,18 +5,22 @@
     
     <entry>
       <title>Java基础</title>
-      <link href="/2021/04/15/hello-world/"/>
-      <url>/2021/04/15/hello-world/</url>
+      <link href="/2021/04/15/java-ji-chu/"/>
+      <url>/2021/04/15/java-ji-chu/</url>
       
         <content type="html"><![CDATA[<h1 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h1><p>。。。</p><h1 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h1><p>。。。</p><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1>]]></content>
       
       
+      <categories>
+          
+          <category> java基础 </category>
+          
+      </categories>
+      
       
         <tags>
             
-            <tag> Typora </tag>
-            
-            <tag> Markdown </tag>
+            <tag> Java </tag>
             
         </tags>
       
