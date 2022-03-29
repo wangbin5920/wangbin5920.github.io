@@ -323,14 +323,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    31.8k
+                    29.9k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    128 分
+                    120 分
                 </div>
                 
 
@@ -693,8 +693,8 @@ d <span class="token operator">=</span> <span class="token number">40</span><spa
 <p><img src="/images/image-20210923100419575.png" alt="image-20210923100419575"></p>
 <p>变量名称：满足标识符规则，建议全英文、有意义、首字母小写，满足“驼峰模式”，例如：int studyNumber = 59。</p>
 <p>类名称： 满足标识符规则，建议全英文、有意义、首字母大写，满足“驼峰模式”，例如：HelloWorld.java。</p>
-<h2 id="0、类型转换问题"><a href="#0、类型转换问题" class="headerlink" title="0、类型转换问题"></a>0、类型转换问题</h2><h4 id="类型转换（理解）"><a href="#类型转换（理解）" class="headerlink" title="类型转换（理解）"></a>类型转换（理解）</h4><p>在Java中，会存在不同类型的数据需要一起参与运算，所以这些数据类型之间是需要相互转换的，分为两种情况：自动类型转换和强制类型转换。</p>
-<h4 id="自动类型转换"><a href="#自动类型转换" class="headerlink" title="自动类型转换"></a>自动类型转换</h4><p>*类型范围小<strong>的变量，可以</strong>直接赋值<strong>给</strong>类型范围大**的变量。</p>
+<h1 id="类型转换问题"><a href="#类型转换问题" class="headerlink" title="类型转换问题"></a>类型转换问题</h1><h2 id="类型转换（理解）"><a href="#类型转换（理解）" class="headerlink" title="类型转换（理解）"></a>类型转换（理解）</h2><p>在Java中，会存在不同类型的数据需要一起参与运算，所以这些数据类型之间是需要相互转换的，分为两种情况：自动类型转换和强制类型转换。</p>
+<h2 id="自动类型转换"><a href="#自动类型转换" class="headerlink" title="自动类型转换"></a>自动类型转换</h2><p>*类型范围小<strong>的变量，可以</strong>直接赋值<strong>给</strong>类型范围大**的变量。</p>
 <p><img src="/images/image-20210923101403191.png" alt="image-20210923101403191"></p>
 <p>把一个表示数据范围小的数值或者变量赋值给另一个表示数据范围大的变量。这种转换方式是自动的，直接书写即可。例如：</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">double</span> num <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span> <span class="token comment">// 将int类型的10直接赋值给double类型</span>
@@ -707,12 +707,12 @@ d <span class="token operator">=</span> <span class="token number">40</span><spa
 
 
 
-<h4 id="表达式的自动类型转换"><a href="#表达式的自动类型转换" class="headerlink" title="表达式的自动类型转换"></a><strong>表达式的自动类型转换</strong></h4><p>在表达式中，小范围类型的变量会自动转换成当前较大范围的类型再运算。</p>
+<h2 id="表达式的自动类型转换"><a href="#表达式的自动类型转换" class="headerlink" title="表达式的自动类型转换"></a><strong>表达式的自动类型转换</strong></h2><p>在表达式中，小范围类型的变量会自动转换成当前较大范围的类型再运算。</p>
 <p><img src="/images/image-20210923101448738.png" alt="image-20210923101448738"></p>
 <p><strong>注意事项：</strong></p>
 <p>表达式的最终结果类型由表达式中的最高类型决定。</p>
 <p>在表达式中，byte、short、char 是直接转换成int类型参与运算的。 </p>
-<h4 id="强制类型转换"><a href="#强制类型转换" class="headerlink" title="强制类型转换"></a>强制类型转换</h4><p>类型范围大的数据或者变量，不能直接<strong>赋值</strong>给<strong>类型范围小</strong>的变量，会报错，把一个表示数据范围大的数值或者变量赋值给另一个表示数据范围小的变量必须进行强制类型转换。</p>
+<h2 id="强制类型转换"><a href="#强制类型转换" class="headerlink" title="强制类型转换"></a>强制类型转换</h2><p>类型范围大的数据或者变量，不能直接<strong>赋值</strong>给<strong>类型范围小</strong>的变量，会报错，把一个表示数据范围大的数值或者变量赋值给另一个表示数据范围小的变量必须进行强制类型转换。</p>
 <p>强制类型转换格式：目标数据类型 变量名 = (目标数据类型)值或者变量;</p>
 <p>   例如：</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">double</span> num1 <span class="token operator">=</span> <span class="token number">5.5</span><span class="token punctuation">;</span>
@@ -741,7 +741,7 @@ d <span class="token operator">=</span> <span class="token number">40</span><spa
 <ol>
 <li>boolean类型不能与其他基本数据类型相互转换。</li>
 </ol>
-<h2 id="1-运算符"><a href="#1-运算符" class="headerlink" title="1. 运算符"></a>1. 运算符</h2><h3 id="1-1-算术运算符（理解）"><a href="#1-1-算术运算符（理解）" class="headerlink" title="1.1 算术运算符（理解）"></a>1.1 算术运算符（理解）</h3><h4 id="1-1-1-运算符和表达式"><a href="#1-1-1-运算符和表达式" class="headerlink" title="1.1.1 运算符和表达式"></a>1.1.1 运算符和表达式</h4><p>运算符：对常量或者变量进行操作的符号</p>
+<h1 id="1-运算符"><a href="#1-运算符" class="headerlink" title="1. 运算符"></a>1. 运算符</h1><h2 id="1-1-算术运算符（理解）"><a href="#1-1-算术运算符（理解）" class="headerlink" title="1.1 算术运算符（理解）"></a>1.1 算术运算符（理解）</h2><h3 id="1-1-1-运算符和表达式"><a href="#1-1-1-运算符和表达式" class="headerlink" title="1.1.1 运算符和表达式"></a>1.1.1 运算符和表达式</h3><p>运算符：对常量或者变量进行操作的符号</p>
 <p>表达式：用运算符把常量或者变量连接起来符合java语法的式子就可以称为表达式。</p>
 <p>​                    不同运算符连接的表达式体现的是不同类型的表达式。</p>
 <p>举例说明：</p>
@@ -751,7 +751,7 @@ d <span class="token operator">=</span> <span class="token number">40</span><spa
 
 <p>  +：是运算符，并且是算术运算符。</p>
 <p>  a + b：是表达式，由于+是算术运算符，所以这个表达式叫算术表达式。</p>
-<h4 id="1-1-2-算术运算符"><a href="#1-1-2-算术运算符" class="headerlink" title="1.1.2 算术运算符"></a>1.1.2 算术运算符</h4><table>
+<h3 id="1-1-2-算术运算符"><a href="#1-1-2-算术运算符" class="headerlink" title="1.1.2 算术运算符"></a>1.1.2 算术运算符</h3><table>
 <thead>
 <tr>
 <th>符号</th>
@@ -793,7 +793,7 @@ d <span class="token operator">=</span> <span class="token number">40</span><spa
 <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>a <span class="token operator">/</span> b<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 输出结果3</span>
 <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>a <span class="token operator">%</span> b<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 输出结果1</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h4 id="1-1-3-字符的“-”操作"><a href="#1-1-3-字符的“-”操作" class="headerlink" title="1.1.3 字符的“+”操作"></a>1.1.3 字符的“+”操作</h4><p>char类型参与算术运算，使用的是计算机底层对应的十进制数值。需要我们记住三个字符对应的数值：</p>
+<h3 id="1-1-3-字符的“-”操作"><a href="#1-1-3-字符的“-”操作" class="headerlink" title="1.1.3 字符的“+”操作"></a>1.1.3 字符的“+”操作</h3><p>char类型参与算术运算，使用的是计算机底层对应的十进制数值。需要我们记住三个字符对应的数值：</p>
 <p>‘a’  –  97     a-z是连续的，所以’b’对应的数值是98，’c’是99，依次递加</p>
 <p>‘A’  –  65     A-Z是连续的，所以’B’对应的数值是66，’C’是67，依次递加</p>
 <p>‘0’  –  48     0-9是连续的，所以’1’对应的数值是49，’2’是50，依次递加</p>
@@ -824,7 +824,7 @@ d <span class="token operator">=</span> <span class="token number">40</span><spa
 <span class="token keyword">double</span> num3 <span class="token operator">=</span> num1 <span class="token operator">+</span> num2<span class="token punctuation">;</span> <span class="token comment">// 使用double接收，因为num1会自动提升为double类型</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>tips：正是由于上述原因，所以在程序开发中我们很少使用byte或者short类型定义整数。也很少会使用char类型定义字符，而使用字符串类型，更不会使用char类型做算术运算。</p>
-<h4 id="1-1-4-字符串的“-”操作"><a href="#1-1-4-字符串的“-”操作" class="headerlink" title="1.1.4 字符串的“+”操作"></a>1.1.4 字符串的“+”操作</h4><p>当“+”操作中出现字符串时，这个”+”是字符串连接符，而不是算术运算。</p>
+<h3 id="1-1-4-字符串的“-”操作"><a href="#1-1-4-字符串的“-”操作" class="headerlink" title="1.1.4 字符串的“+”操作"></a>1.1.4 字符串的“+”操作</h3><p>当“+”操作中出现字符串时，这个”+”是字符串连接符，而不是算术运算。</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"itheima"</span><span class="token operator">+</span> <span class="token number">666</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 输出：itheima666</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>在”+”操作中，如果出现了字符串，就是连接运算符，否则就是算术运算。当连续进行“+”操作时，从左到右逐个执行。</p>
@@ -833,7 +833,7 @@ d <span class="token operator">=</span> <span class="token number">40</span><spa
 <span class="token comment">// 可以使用小括号改变运算的优先级 </span>
 <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">1</span> <span class="token operator">+</span> <span class="token number">2</span> <span class="token operator">+</span> <span class="token string">"HelloWorld"</span> <span class="token operator">+</span> <span class="token punctuation">(</span><span class="token number">3</span> <span class="token operator">+</span> <span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 输出：3itheima7</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h3 id="1-2-赋值运算符（应用）"><a href="#1-2-赋值运算符（应用）" class="headerlink" title="1.2 赋值运算符（应用）"></a>1.2 赋值运算符（应用）</h3><p>赋值运算符的作用是将一个表达式的值赋给左边，左边必须是可修改的，不能是常量。</p>
+<h2 id="1-2-赋值运算符（应用）"><a href="#1-2-赋值运算符（应用）" class="headerlink" title="1.2 赋值运算符（应用）"></a>1.2 赋值运算符（应用）</h2><p>赋值运算符的作用是将一个表达式的值赋给左边，左边必须是可修改的，不能是常量。</p>
 <table>
 <thead>
 <tr>
@@ -880,7 +880,7 @@ s <span class="token operator">=</span> s <span class="token operator">+</span> 
 
 s <span class="token operator">+=</span> <span class="token number">10</span><span class="token punctuation">;</span> <span class="token comment">// 此行代码没有问题，隐含了强制类型转换，相当于 s = (short) (s + 10);</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h3 id="1-3-自增自减运算符（理解）"><a href="#1-3-自增自减运算符（理解）" class="headerlink" title="1.3 自增自减运算符（理解）"></a>1.3 自增自减运算符（理解）</h3><table>
+<h2 id="1-3-自增自减运算符（理解）"><a href="#1-3-自增自减运算符（理解）" class="headerlink" title="1.3 自增自减运算符（理解）"></a>1.3 自增自减运算符（理解）</h2><table>
 <thead>
 <tr>
 <th>符号</th>
@@ -932,7 +932,7 @@ i<span class="token operator">++</span><span class="token punctuation">;</span> 
 */</span>
 注意：通过此练习深刻理解自增和自减的规律，但实际开发中强烈建议不要写这样的代码！小心挨打！<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h3 id="1-4-关系运算符（应用）"><a href="#1-4-关系运算符（应用）" class="headerlink" title="1.4 关系运算符（应用）"></a>1.4 关系运算符（应用）</h3><p>关系运算符有6种关系，分别为小于、小于等于、大于、等于、大于等于、不等于。</p>
+<h2 id="1-4-关系运算符（应用）"><a href="#1-4-关系运算符（应用）" class="headerlink" title="1.4 关系运算符（应用）"></a>1.4 关系运算符（应用）</h2><p>关系运算符有6种关系，分别为小于、小于等于、大于、等于、大于等于、不等于。</p>
 <table>
 <thead>
 <tr>
@@ -1041,7 +1041,7 @@ i<span class="token operator">++</span><span class="token punctuation">;</span> 
 <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token punctuation">(</span>i <span class="token operator">&gt;</span> j<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//false</span>
 <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token operator">!</span><span class="token punctuation">(</span>i <span class="token operator">&gt;</span> j<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//!false，,输出true</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h4 id="短路逻辑运算符"><a href="#短路逻辑运算符" class="headerlink" title="短路逻辑运算符"></a>短路逻辑运算符</h4><table>
+<h1 id="短路逻辑运算符"><a href="#短路逻辑运算符" class="headerlink" title="短路逻辑运算符"></a>短路逻辑运算符</h1><table>
 <thead>
 <tr>
 <th>符号</th>
@@ -1120,7 +1120,7 @@ i<span class="token operator">++</span><span class="token punctuation">;</span> 
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h2 id="2-数据输入（应用）"><a href="#2-数据输入（应用）" class="headerlink" title="2. 数据输入（应用）"></a>2. 数据输入（应用）</h2><p>我们可以通过 Scanner 类来获取用户的输入。使用步骤如下：</p>
+<h1 id="2-数据输入（应用）"><a href="#2-数据输入（应用）" class="headerlink" title="2. 数据输入（应用）"></a>2. 数据输入（应用）</h1><p>我们可以通过 Scanner 类来获取用户的输入。使用步骤如下：</p>
 <p>1、导包。Scanner 类在java.util包下，所以需要将该类导入。导包的语句需要定义在类的上面。</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>util<span class="token punctuation">.</span></span><span class="token class-name">Scanner</span><span class="token punctuation">;</span> <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
@@ -1191,7 +1191,7 @@ i<span class="token operator">++</span><span class="token punctuation">;</span> 
         <span class="token punctuation">}</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h1 id="0、switch-amp-循环语句"><a href="#0、switch-amp-循环语句" class="headerlink" title="0、switch&amp;循环语句"></a>0、switch&amp;循环语句</h1><h2 id="1、流程控制语句（应用）"><a href="#1、流程控制语句（应用）" class="headerlink" title="1、流程控制语句（应用）"></a>1、流程控制语句（应用）</h2><p>在一个程序执行的过程中，各条语句的执行顺序对程序的结果是有直接影响的。所以，我们必须清楚每条语句的执行流程。而且，很多时候要通过控制语句的执行顺序来实现我们想要的功能。</p>
+<h1 id="switch-amp-循环语句"><a href="#switch-amp-循环语句" class="headerlink" title="switch&amp;循环语句"></a>switch&amp;循环语句</h1><h2 id="1、流程控制语句（应用）"><a href="#1、流程控制语句（应用）" class="headerlink" title="1、流程控制语句（应用）"></a>1、流程控制语句（应用）</h2><p>在一个程序执行的过程中，各条语句的执行顺序对程序的结果是有直接影响的。所以，我们必须清楚每条语句的执行流程。而且，很多时候要通过控制语句的执行顺序来实现我们想要的功能。</p>
 <h3 id="1-1-流程控制语句分类"><a href="#1-1-流程控制语句分类" class="headerlink" title="1.1 流程控制语句分类"></a>1.1 流程控制语句分类</h3><p>​   顺序结构</p>
 <p>​   分支结构(if, switch)</p>
 <p>​   循环结构(for, while, do…while)</p>
@@ -2566,7 +2566,7 @@ i<span class="token operator">++</span><span class="token punctuation">;</span> 
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
 </ul>
-<h1 id="0、Debug模式与基础练习"><a href="#0、Debug模式与基础练习" class="headerlink" title="0、Debug模式与基础练习"></a>0、Debug模式与基础练习</h1><h2 id="1-Debug模式"><a href="#1-Debug模式" class="headerlink" title="1.Debug模式"></a>1.Debug模式</h2><h3 id="1-1什么是Debug模式"><a href="#1-1什么是Debug模式" class="headerlink" title="1.1什么是Debug模式"></a>1.1什么是Debug模式</h3><p>是供程序员使用的程序调试工具，它可以用于查看程序的执行流程，也可以用于追踪程序执行过程来调试程序。</p>
+<h1 id="Debug模式与基础练习"><a href="#Debug模式与基础练习" class="headerlink" title="Debug模式与基础练习"></a>Debug模式与基础练习</h1><h2 id="1-Debug模式"><a href="#1-Debug模式" class="headerlink" title="1.Debug模式"></a>1.Debug模式</h2><h3 id="1-1什么是Debug模式"><a href="#1-1什么是Debug模式" class="headerlink" title="1.1什么是Debug模式"></a>1.1什么是Debug模式</h3><p>是供程序员使用的程序调试工具，它可以用于查看程序的执行流程，也可以用于追踪程序执行过程来调试程序。</p>
 <h3 id="1-2Debug模式操作流程"><a href="#1-2Debug模式操作流程" class="headerlink" title="1.2Debug模式操作流程"></a>1.2Debug模式操作流程</h3><ul>
 <li><p>如何加断点</p>
 <ul>
@@ -3061,7 +3061,7 @@ i<span class="token operator">++</span><span class="token punctuation">;</span> 
         <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"]"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h1 id="0、面向对象"><a href="#0、面向对象" class="headerlink" title="0、面向对象"></a>0、面向对象</h1><h2 id="1-类和对象"><a href="#1-类和对象" class="headerlink" title="1. 类和对象"></a>1. 类和对象</h2><h3 id="1-1-类和对象的理解"><a href="#1-1-类和对象的理解" class="headerlink" title="1.1 类和对象的理解"></a>1.1 类和对象的理解</h3><p>客观存在的事物皆为对象 ，所以我们也常常说万物皆对象。</p>
+<h1 id="面向对象"><a href="#面向对象" class="headerlink" title="面向对象"></a>面向对象</h1><h2 id="1-类和对象"><a href="#1-类和对象" class="headerlink" title="1. 类和对象"></a>1. 类和对象</h2><h3 id="1-1-类和对象的理解"><a href="#1-1-类和对象的理解" class="headerlink" title="1.1 类和对象的理解"></a>1.1 类和对象的理解</h3><p>客观存在的事物皆为对象 ，所以我们也常常说万物皆对象。</p>
 <ul>
 <li>类<ul>
 <li>类的理解<ul>
@@ -3580,7 +3580,7 @@ i<span class="token operator">++</span><span class="token punctuation">;</span> 
         s2<span class="token punctuation">.</span><span class="token function">show</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h1 id="0、常用API"><a href="#0、常用API" class="headerlink" title="0、常用API"></a>0、常用API</h1><h2 id="1-API"><a href="#1-API" class="headerlink" title="1.API"></a>1.API</h2><h3 id="1-1API概述"><a href="#1-1API概述" class="headerlink" title="1.1API概述"></a>1.1API概述</h3><ul>
+<h1 id="常用API"><a href="#常用API" class="headerlink" title="常用API"></a>常用API</h1><h2 id="1-API"><a href="#1-API" class="headerlink" title="1.API"></a>1.API</h2><h3 id="1-1API概述"><a href="#1-1API概述" class="headerlink" title="1.1API概述"></a>1.1API概述</h3><ul>
 <li><p>什么是API</p>
 <p>​ API (Application Programming Interface) ：应用程序编程接口</p>
 </li>
@@ -4624,289 +4624,6 @@ i<span class="token operator">++</span><span class="token punctuation">;</span> 
     accounts<span class="token punctuation">.</span><span class="token function">remove</span><span class="token punctuation">(</span>acc<span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"销户成功了！！"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token keyword">return</span><span class="token punctuation">;</span><span class="token comment">// 结束当前操作的方法！</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="2-学生管理系统"><a href="#2-学生管理系统" class="headerlink" title="2.学生管理系统"></a>2.学生管理系统</h2><h3 id="2-1学生管理系统实现步骤"><a href="#2-1学生管理系统实现步骤" class="headerlink" title="2.1学生管理系统实现步骤"></a>2.1学生管理系统实现步骤</h3><ul>
-<li><p>案例需求</p>
-<p>​ 针对目前我们的所学内容，完成一个综合案例：学生管理系统。该系统主要功能如下：</p>
-<p>​ 添加学生：通过键盘录入学生信息，添加到集合中</p>
-<p>​ 删除学生：通过键盘录入要删除学生的学号，将该学生对象从集合中删除</p>
-<p>​ 修改学生：通过键盘录入要修改学生的学号，将该学生对象其他信息进行修改</p>
-<p>​ 查看学生：将集合中的学生对象信息进行展示</p>
-<p>​ 退出系统：结束程序</p>
-</li>
-<li><p>实现步骤</p>
-<ol>
-<li><p>定义学生类，包含以下成员变量</p>
-<p>​       private String sid            // 学生id</p>
-<p>​       private String name       // 学生姓名</p>
-<p>​       private String age          // 学生年龄</p>
-<p>​       private String address   // 学生所在地</p>
-</li>
-<li><p>学生管理系统主界面的搭建步骤</p>
-<p>2.1 用输出语句完成主界面的编写<br>2.2 用Scanner实现键盘输入<br>2.3 用switch语句完成选择的功能<br>2.4 用循环完成功能结束后再次回到主界面</p>
-</li>
-<li><p>学生管理系统的添加学生功能实现步骤</p>
-<p>3.1 定义一个方法，接收ArrayList<student>集合<br>3.2 方法内完成添加学生的功能<br>​         ①键盘录入学生信息<br>​         ②根据录入的信息创建学生对象<br>​         ③将学生对象添加到集合中<br>​         ④提示添加成功信息<br>3.3 在添加学生的选项里调用添加学生的方法</student></p>
-</li>
-<li><p>学生管理系统的查看学生功能实现步骤</p>
-<p>4.1 定义一个方法，接收ArrayList<student>集合<br>4.2 方法内遍历集合，将学生信息进行输出<br>4.3 在查看所有学生选项里调用查看学生方法</student></p>
-</li>
-<li><p>学生管理系统的删除学生功能实现步骤</p>
-<p>5.1 定义一个方法，接收ArrayList<student>集合<br>5.2 方法中接收要删除学生的学号<br>5.3 遍历集合，获取每个学生对象<br>5.4 使用学生对象的学号和录入的要删除的学号进行比较,如果相同，则将当前学生对象从集合中删除<br>5.5 在删除学生选项里调用删除学生的方法</student></p>
-</li>
-<li><p>学生管理系统的修改学生功能实现步骤</p>
-<p>6.1 定义一个方法，接收ArrayList<student>集合<br>6.2 方法中接收要修改学生的学号<br>6.3 通过键盘录入学生对象所需的信息，并创建对象<br>6.4 遍历集合，获取每一个学生对象。并和录入的修改学生学号进行比较.如果相同，则使用新学生对象替换当前学生对象<br>6.5 在修改学生选项里调用修改学生的方法</student></p>
-</li>
-<li><p>退出系统</p>
-<p>使用System.exit(0);退出JVM</p>
-</li>
-</ol>
-</li>
-</ul>
-<h3 id="2-2学生类的定义"><a href="#2-2学生类的定义" class="headerlink" title="2.2学生类的定义"></a>2.2学生类的定义</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Student</span> <span class="token punctuation">{</span>
-    <span class="token comment">//学号</span>
-    <span class="token keyword">private</span> <span class="token class-name">String</span> sid<span class="token punctuation">;</span>
-    <span class="token comment">//姓名</span>
-    <span class="token keyword">private</span> <span class="token class-name">String</span> name<span class="token punctuation">;</span>
-    <span class="token comment">//年龄</span>
-    <span class="token keyword">private</span> <span class="token class-name">String</span> age<span class="token punctuation">;</span>
-    <span class="token comment">//居住地</span>
-    <span class="token keyword">private</span> <span class="token class-name">String</span> address<span class="token punctuation">;</span>
-
-    <span class="token keyword">public</span> <span class="token class-name">Student</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token keyword">public</span> <span class="token class-name">Student</span><span class="token punctuation">(</span><span class="token class-name">String</span> sid<span class="token punctuation">,</span> <span class="token class-name">String</span> name<span class="token punctuation">,</span> <span class="token class-name">String</span> age<span class="token punctuation">,</span> <span class="token class-name">String</span> address<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>sid <span class="token operator">=</span> sid<span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name<span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>age <span class="token operator">=</span> age<span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>address <span class="token operator">=</span> address<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token keyword">public</span> <span class="token class-name">String</span> <span class="token function">getSid</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">return</span> sid<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setSid</span><span class="token punctuation">(</span><span class="token class-name">String</span> sid<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>sid <span class="token operator">=</span> sid<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token keyword">public</span> <span class="token class-name">String</span> <span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">return</span> name<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setName</span><span class="token punctuation">(</span><span class="token class-name">String</span> name<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>name <span class="token operator">=</span> name<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token keyword">public</span> <span class="token class-name">String</span> <span class="token function">getAge</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">return</span> age<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setAge</span><span class="token punctuation">(</span><span class="token class-name">String</span> age<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>age <span class="token operator">=</span> age<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token keyword">public</span> <span class="token class-name">String</span> <span class="token function">getAddress</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">return</span> address<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setAddress</span><span class="token punctuation">(</span><span class="token class-name">String</span> address<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>address <span class="token operator">=</span> address<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h3 id="2-3测试类的定义"><a href="#2-3测试类的定义" class="headerlink" title="2.3测试类的定义"></a>2.3测试类的定义</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">StudentManager</span> <span class="token punctuation">{</span>
-    <span class="token comment">/*
-        1:用输出语句完成主界面的编写
-        2:用Scanner实现键盘录入数据
-        3:用switch语句完成操作的选择
-        4:用循环完成再次回到主界面
-    */</span>
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token comment">//创建集合对象，用于保存学生数据信息</span>
-        <span class="token class-name">ArrayList</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Student</span><span class="token punctuation">&gt;</span></span> array <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ArrayList</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Student</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token comment">//用循环完成再次回到主界面</span>
-        <span class="token keyword">while</span> <span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token comment">//用输出语句完成主界面的编写</span>
-            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"--------欢迎来到学生管理系统--------"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"1 添加学生"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"2 删除学生"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"3 修改学生"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"4 查看所有学生"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"5 退出"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"请输入你的选择："</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-            <span class="token comment">//用Scanner实现键盘录入数据</span>
-            <span class="token class-name">Scanner</span> sc <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token class-name">String</span> line <span class="token operator">=</span> sc<span class="token punctuation">.</span><span class="token function">nextLine</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-            <span class="token comment">//用switch语句完成操作的选择</span>
-            <span class="token keyword">switch</span> <span class="token punctuation">(</span>line<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                <span class="token keyword">case</span> <span class="token string">"1"</span><span class="token operator">:</span>
-                    <span class="token function">addStudent</span><span class="token punctuation">(</span>array<span class="token punctuation">)</span><span class="token punctuation">;</span>
-                    <span class="token keyword">break</span><span class="token punctuation">;</span>
-                <span class="token keyword">case</span> <span class="token string">"2"</span><span class="token operator">:</span>
-                    <span class="token function">deleteStudent</span><span class="token punctuation">(</span>array<span class="token punctuation">)</span><span class="token punctuation">;</span>
-                    <span class="token keyword">break</span><span class="token punctuation">;</span>
-                <span class="token keyword">case</span> <span class="token string">"3"</span><span class="token operator">:</span>
-                    <span class="token function">updateStudent</span><span class="token punctuation">(</span>array<span class="token punctuation">)</span><span class="token punctuation">;</span>
-                    <span class="token keyword">break</span><span class="token punctuation">;</span>
-                <span class="token keyword">case</span> <span class="token string">"4"</span><span class="token operator">:</span>
-                    <span class="token function">findAllStudent</span><span class="token punctuation">(</span>array<span class="token punctuation">)</span><span class="token punctuation">;</span>
-                    <span class="token keyword">break</span><span class="token punctuation">;</span>
-                <span class="token keyword">case</span> <span class="token string">"5"</span><span class="token operator">:</span>
-                    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"谢谢使用"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                    <span class="token class-name">System</span><span class="token punctuation">.</span><span class="token function">exit</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//JVM退出</span>
-            <span class="token punctuation">}</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token comment">//定义一个方法，用于添加学生信息</span>
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">addStudent</span><span class="token punctuation">(</span><span class="token class-name">ArrayList</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Student</span><span class="token punctuation">&gt;</span></span> array<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token comment">//键盘录入学生对象所需要的数据,显示提示信息，提示要输入何种信息</span>
-        <span class="token class-name">Scanner</span> sc <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token class-name">String</span> sid<span class="token punctuation">;</span>
-
-        <span class="token keyword">while</span> <span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"请输入学生学号："</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            sid <span class="token operator">=</span> sc<span class="token punctuation">.</span><span class="token function">nextLine</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-            <span class="token keyword">boolean</span> flag <span class="token operator">=</span> <span class="token function">isUsed</span><span class="token punctuation">(</span>array<span class="token punctuation">,</span> sid<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token keyword">if</span> <span class="token punctuation">(</span>flag<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"你输入的学号已经被占用，请重新输入"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
-                <span class="token keyword">break</span><span class="token punctuation">;</span>
-            <span class="token punctuation">}</span>
-        <span class="token punctuation">}</span>
-
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"请输入学生姓名："</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">String</span> name <span class="token operator">=</span> sc<span class="token punctuation">.</span><span class="token function">nextLine</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"请输入学生年龄："</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">String</span> age <span class="token operator">=</span> sc<span class="token punctuation">.</span><span class="token function">nextLine</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"请输入学生居住地："</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">String</span> address <span class="token operator">=</span> sc<span class="token punctuation">.</span><span class="token function">nextLine</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token comment">//创建学生对象，把键盘录入的数据赋值给学生对象的成员变量</span>
-        <span class="token class-name">Student</span> s <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Student</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        s<span class="token punctuation">.</span><span class="token function">setSid</span><span class="token punctuation">(</span>sid<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        s<span class="token punctuation">.</span><span class="token function">setName</span><span class="token punctuation">(</span>name<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        s<span class="token punctuation">.</span><span class="token function">setAge</span><span class="token punctuation">(</span>age<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        s<span class="token punctuation">.</span><span class="token function">setAddress</span><span class="token punctuation">(</span>address<span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token comment">//将学生对象添加到集合中</span>
-        array<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token comment">//给出添加成功提示</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"添加学生成功"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token comment">//定义一个方法，判断学号是否被使用</span>
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">boolean</span> <span class="token function">isUsed</span><span class="token punctuation">(</span><span class="token class-name">ArrayList</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Student</span><span class="token punctuation">&gt;</span></span> array<span class="token punctuation">,</span> <span class="token class-name">String</span> sid<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token comment">//如果与集合中的某一个学生学号相同，返回true;如果都不相同，返回false</span>
-        <span class="token keyword">boolean</span> flag <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
-
-        <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span> i<span class="token operator">&lt;</span>array<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token class-name">Student</span> s <span class="token operator">=</span> array<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token keyword">if</span><span class="token punctuation">(</span>s<span class="token punctuation">.</span><span class="token function">getSid</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">equals</span><span class="token punctuation">(</span>sid<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                flag <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
-                <span class="token keyword">break</span><span class="token punctuation">;</span>
-            <span class="token punctuation">}</span>
-        <span class="token punctuation">}</span>
-
-        <span class="token keyword">return</span> flag<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-
-    <span class="token comment">//定义一个方法，用于查看学生信息</span>
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">findAllStudent</span><span class="token punctuation">(</span><span class="token class-name">ArrayList</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Student</span><span class="token punctuation">&gt;</span></span> array<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token comment">//判断集合中是否有数据，如果没有显示提示信息</span>
-        <span class="token keyword">if</span> <span class="token punctuation">(</span>array<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"无信息，请先添加信息再查询"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token comment">//为了让程序不再往下执行，我们在这里写上return;</span>
-            <span class="token keyword">return</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-
-        <span class="token comment">//显示表头信息</span>
-        <span class="token comment">//\t其实是一个tab键的位置</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"学号\t\t\t姓名\t\t年龄\t\t居住地"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token comment">//将集合中数据取出按照对应格式显示学生信息，年龄显示补充“岁”</span>
-        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> array<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token class-name">Student</span> s <span class="token operator">=</span> array<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>s<span class="token punctuation">.</span><span class="token function">getSid</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">"\t"</span> <span class="token operator">+</span> s<span class="token punctuation">.</span><span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">"\t"</span> <span class="token operator">+</span> s<span class="token punctuation">.</span><span class="token function">getAge</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">"岁\t\t"</span> <span class="token operator">+</span> s<span class="token punctuation">.</span><span class="token function">getAddress</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token comment">//定义一个方法，用于删除学生信息</span>
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">deleteStudent</span><span class="token punctuation">(</span><span class="token class-name">ArrayList</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Student</span><span class="token punctuation">&gt;</span></span> array<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token comment">//键盘录入要删除的学生学号,显示提示信息</span>
-        <span class="token class-name">Scanner</span> sc <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"请输入你要删除的学生的学号："</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">String</span> sid <span class="token operator">=</span> sc<span class="token punctuation">.</span><span class="token function">nextLine</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token comment">//在删除/修改学生操作前，对学号是否存在进行判断</span>
-        <span class="token comment">//如果不存在，显示提示信息</span>
-        <span class="token comment">//如果存在，执行删除/修改操作</span>
-
-        <span class="token keyword">int</span> index <span class="token operator">=</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
-
-        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> array<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token class-name">Student</span> s <span class="token operator">=</span> array<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token keyword">if</span> <span class="token punctuation">(</span>s<span class="token punctuation">.</span><span class="token function">getSid</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">equals</span><span class="token punctuation">(</span>sid<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                index <span class="token operator">=</span> i<span class="token punctuation">;</span>
-                <span class="token keyword">break</span><span class="token punctuation">;</span>
-            <span class="token punctuation">}</span>
-        <span class="token punctuation">}</span>
-
-        <span class="token keyword">if</span> <span class="token punctuation">(</span>index <span class="token operator">==</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"该信息不存在，请重新输入"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
-            array<span class="token punctuation">.</span><span class="token function">remove</span><span class="token punctuation">(</span>index<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token comment">//给出删除成功提示</span>
-            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"删除学生成功"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token comment">//定义一个方法，用于修改学生信息</span>
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">updateStudent</span><span class="token punctuation">(</span><span class="token class-name">ArrayList</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Student</span><span class="token punctuation">&gt;</span></span> array<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token comment">//键盘录入要修改的学生学号，显示提示信息</span>
-        <span class="token class-name">Scanner</span> sc <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"请输入你要修改的学生的学号："</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">String</span> sid <span class="token operator">=</span> sc<span class="token punctuation">.</span><span class="token function">nextLine</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token comment">//键盘录入要修改的学生信息</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"请输入学生新姓名："</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">String</span> name <span class="token operator">=</span> sc<span class="token punctuation">.</span><span class="token function">nextLine</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"请输入学生新年龄："</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">String</span> age <span class="token operator">=</span> sc<span class="token punctuation">.</span><span class="token function">nextLine</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"请输入学生新居住地："</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">String</span> address <span class="token operator">=</span> sc<span class="token punctuation">.</span><span class="token function">nextLine</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token comment">//创建学生对象</span>
-        <span class="token class-name">Student</span> s <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Student</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        s<span class="token punctuation">.</span><span class="token function">setSid</span><span class="token punctuation">(</span>sid<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        s<span class="token punctuation">.</span><span class="token function">setName</span><span class="token punctuation">(</span>name<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        s<span class="token punctuation">.</span><span class="token function">setAge</span><span class="token punctuation">(</span>age<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        s<span class="token punctuation">.</span><span class="token function">setAddress</span><span class="token punctuation">(</span>address<span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token comment">//遍历集合修改对应的学生信息</span>
-        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> array<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token class-name">Student</span> student <span class="token operator">=</span> array<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token keyword">if</span> <span class="token punctuation">(</span>student<span class="token punctuation">.</span><span class="token function">getSid</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">equals</span><span class="token punctuation">(</span>sid<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                array<span class="token punctuation">.</span><span class="token function">set</span><span class="token punctuation">(</span>i<span class="token punctuation">,</span> s<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token punctuation">}</span>
-        <span class="token punctuation">}</span>
-
-        <span class="token comment">//给出修改成功提示</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"修改学生成功"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 
 
@@ -5371,7 +5088,7 @@ i<span class="token operator">++</span><span class="token punctuation">;</span> 
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">31.8k</span>
+                        class="white-color">29.9k</span>
             
             
             
