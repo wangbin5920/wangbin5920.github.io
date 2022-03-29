@@ -695,7 +695,7 @@ d <span class="token operator">=</span> <span class="token number">40</span><spa
 <p>类名称： 满足标识符规则，建议全英文、有意义、首字母大写，满足“驼峰模式”，例如：HelloWorld.java。</p>
 <h2 id="0、类型转换问题"><a href="#0、类型转换问题" class="headerlink" title="0、类型转换问题"></a>0、类型转换问题</h2><h4 id="类型转换（理解）"><a href="#类型转换（理解）" class="headerlink" title="类型转换（理解）"></a>类型转换（理解）</h4><p>在Java中，会存在不同类型的数据需要一起参与运算，所以这些数据类型之间是需要相互转换的，分为两种情况：自动类型转换和强制类型转换。</p>
 <h4 id="自动类型转换"><a href="#自动类型转换" class="headerlink" title="自动类型转换"></a>自动类型转换</h4><p>*类型范围小<strong>的变量，可以</strong>直接赋值<strong>给</strong>类型范围大**的变量。</p>
-<p>![image-20210923101403191](day02 - Java基础语法.assets\image-20210923101403191.png)</p>
+<p><img src="/images/image-20210923101403191.png" alt="image-20210923101403191"></p>
 <p>把一个表示数据范围小的数值或者变量赋值给另一个表示数据范围大的变量。这种转换方式是自动的，直接书写即可。例如：</p>
 <pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">double</span> num <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span> <span class="token comment">// 将int类型的10直接赋值给double类型</span>
 <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 输出10.0</span>
@@ -708,7 +708,7 @@ d <span class="token operator">=</span> <span class="token number">40</span><spa
 
 
 <h4 id="表达式的自动类型转换"><a href="#表达式的自动类型转换" class="headerlink" title="表达式的自动类型转换"></a><strong>表达式的自动类型转换</strong></h4><p>在表达式中，小范围类型的变量会自动转换成当前较大范围的类型再运算。</p>
-<p>![image-20210923101448738](day02 - Java基础语法.assets\image-20210923101448738.png)</p>
+<p><img src="/images/image-20210923101448738.png" alt="image-20210923101448738"></p>
 <p><strong>注意事项：</strong></p>
 <p>表达式的最终结果类型由表达式中的最高类型决定。</p>
 <p>在表达式中，byte、short、char 是直接转换成int类型参与运算的。 </p>
