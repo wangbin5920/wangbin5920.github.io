@@ -6,7 +6,7 @@
   <link href="http://wangbin5920.github.io/atom.xml" rel="self"/>
   
   <link href="http://wangbin5920.github.io/"/>
-  <updated>2022-03-31T14:49:52.528Z</updated>
+  <updated>2022-04-01T06:05:41.622Z</updated>
   <id>http://wangbin5920.github.io/</id>
   
   <author>
@@ -15,6 +15,58 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaWeb</title>
+    <link href="http://wangbin5920.github.io/2021/06/30/javaweb/"/>
+    <id>http://wangbin5920.github.io/2021/06/30/javaweb/</id>
+    <published>2021-06-29T16:00:00.000Z</published>
+    <updated>2022-04-01T06:05:41.622Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;JDBC&quot;&gt;&lt;a href=&quot;#JDBC&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="JavaWeb" scheme="http://wangbin5920.github.io/categories/JavaWeb/"/>
+    
+    
+    <category term="JavaWeb" scheme="http://wangbin5920.github.io/tags/JavaWeb/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaWeb基础</title>
+    <link href="http://wangbin5920.github.io/2021/06/30/javaweb-ji-chu/"/>
+    <id>http://wangbin5920.github.io/2021/06/30/javaweb-ji-chu/</id>
+    <published>2021-06-29T16:00:00.000Z</published>
+    <updated>2022-04-01T06:48:38.542Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;JavaScript&quot;&gt;&lt;a href=&quot;#JavaScript&quot; class=&quot;headerlink&quot; title=&quot;JavaScript&quot;&gt;&lt;/a&gt;JavaScript&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;掌握 JavaScript</summary>
+        
+      
+    
+    
+    
+    <category term="JavaWeb基础" scheme="http://wangbin5920.github.io/categories/JavaWeb%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="JavaWeb基础" scheme="http://wangbin5920.github.io/tags/JavaWeb%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
   
   <entry>
     <title>MySQL</title>
