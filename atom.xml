@@ -6,7 +6,7 @@
   <link href="http://wangbin5920.github.io/atom.xml" rel="self"/>
   
   <link href="http://wangbin5920.github.io/"/>
-  <updated>2022-04-02T02:36:05.299Z</updated>
+  <updated>2022-04-02T04:13:39.308Z</updated>
   <id>http://wangbin5920.github.io/</id>
   
   <author>
@@ -17,12 +17,20 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Java</title>
-    <link href="http://wangbin5920.github.io/2021/04/15/java-ji-chu/"/>
-    <id>http://wangbin5920.github.io/2021/04/15/java-ji-chu/</id>
-    <published>2021-04-14T16:00:00.000Z</published>
-    <updated>2022-04-02T02:36:05.299Z</updated>
+    <title>Java基础</title>
+    <link href="http://wangbin5920.github.io/2021/03/15/java-ji-chu/"/>
+    <id>http://wangbin5920.github.io/2021/03/15/java-ji-chu/</id>
+    <published>2021-03-14T16:00:00.000Z</published>
+    <updated>2022-04-02T04:13:39.308Z</updated>
     
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;java基础&quot;&gt;&lt;a href=&quot;#java基础&quot; class=&quot;headerlink&quot; title=&quot;java基础&quot;&gt;&lt;/a&gt;java基础&lt;/h1&gt;&lt;h2 id=&quot;1-Java概述&quot;&gt;&lt;a href=&quot;#1-Java概述&quot; class=&quot;headerlink&quot;</summary>
+        
+      
     
     
     
@@ -31,7 +39,7 @@
     
     <category term="Typora" scheme="http://wangbin5920.github.io/tags/Typora/"/>
     
-    <category term="java" scheme="http://wangbin5920.github.io/tags/java/"/>
+    <category term="java基础" scheme="http://wangbin5920.github.io/tags/java%E5%9F%BA%E7%A1%80/"/>
     
   </entry>
   
