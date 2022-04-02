@@ -6,7 +6,7 @@
   <link href="http://wangbin5920.github.io/atom.xml" rel="self"/>
   
   <link href="http://wangbin5920.github.io/"/>
-  <updated>2022-04-01T11:57:25.869Z</updated>
+  <updated>2022-04-02T02:34:06.881Z</updated>
   <id>http://wangbin5920.github.io/</id>
   
   <author>
@@ -17,23 +17,19 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>java基础</title>
+    <title>Java</title>
     <link href="http://wangbin5920.github.io/2021/04/15/java-ji-chu/"/>
     <id>http://wangbin5920.github.io/2021/04/15/java-ji-chu/</id>
     <published>2021-04-14T16:00:00.000Z</published>
-    <updated>2022-04-01T11:57:25.869Z</updated>
+    <updated>2022-04-02T02:34:06.881Z</updated>
     
     
     
     
-    <category term="Java基础" scheme="http://wangbin5920.github.io/categories/Java%E5%9F%BA%E7%A1%80/"/>
+    <category term="后端" scheme="http://wangbin5920.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
     
     
-    <category term="Typora" scheme="http://wangbin5920.github.io/tags/Typora/"/>
-    
-    <category term="Markdown" scheme="http://wangbin5920.github.io/tags/Markdown/"/>
-    
-    <category term="java基础" scheme="http://wangbin5920.github.io/tags/java%E5%9F%BA%E7%A1%80/"/>
+    <category term="Java Web - Typora - java" scheme="http://wangbin5920.github.io/tags/Java-Web-Typora-java/"/>
     
   </entry>
   
