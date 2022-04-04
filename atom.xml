@@ -6,7 +6,7 @@
   <link href="http://wangbin5920.github.io/atom.xml" rel="self"/>
   
   <link href="http://wangbin5920.github.io/"/>
-  <updated>2022-04-03T08:41:40.431Z</updated>
+  <updated>2022-04-04T02:25:40.323Z</updated>
   <id>http://wangbin5920.github.io/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MySQL 基础</title>
+    <link href="http://wangbin5920.github.io/2021/05/15/mysql-ji-chu/"/>
+    <id>http://wangbin5920.github.io/2021/05/15/mysql-ji-chu/</id>
+    <published>2021-05-14T16:00:00.000Z</published>
+    <updated>2022-04-04T02:25:40.323Z</updated>
+    
+    
+    
+    
+    <category term="数据库" scheme="http://wangbin5920.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+    <category term="MySQL 基础" scheme="http://wangbin5920.github.io/tags/MySQL-%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
   
   <entry>
     <title>JavaSE 集合</title>
