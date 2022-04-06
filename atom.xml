@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>wb</title>
+  <title>王斌的博客</title>
   
-  <subtitle>wb</subtitle>
+  <subtitle>be yourself, be better</subtitle>
   <link href="http://wangbin5920.github.io/atom.xml" rel="self"/>
   
   <link href="http://wangbin5920.github.io/"/>
@@ -10,7 +10,7 @@
   <id>http://wangbin5920.github.io/</id>
   
   <author>
-    <name>wb</name>
+    <name>王斌</name>
     
   </author>
   

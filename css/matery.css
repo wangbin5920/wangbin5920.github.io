@@ -2143,3 +2143,16 @@ p.search-result-summary{
     padding: 0;
     margin: 0;
 }
+
+/* The overall background color, including navigation, mobile navigation, footer, tab, etc.. */
+.bg-color {
+    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+}
+
+@-webkit-keyframes rainbow {
+   /* Dynamically switch background colors. */
+}
+
+@keyframes rainbow {
+    /* Dynamically switch background colors. */
+}
