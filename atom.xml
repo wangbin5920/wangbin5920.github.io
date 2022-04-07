@@ -6,7 +6,7 @@
   <link href="http://wangbin5920.github.io/atom.xml" rel="self"/>
   
   <link href="http://wangbin5920.github.io/"/>
-  <updated>2022-04-07T02:28:57.001Z</updated>
+  <updated>2022-04-07T03:07:54.299Z</updated>
   <id>http://wangbin5920.github.io/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>HTML</title>
+    <link href="http://wangbin5920.github.io/2021/06/20/html/"/>
+    <id>http://wangbin5920.github.io/2021/06/20/html/</id>
+    <published>2021-06-19T16:00:00.000Z</published>
+    <updated>2022-04-07T03:07:54.299Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;HTML-amp-CSS&quot;&gt;&lt;a href=&quot;#HTML-amp-CSS&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="http://wangbin5920.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="HTML" scheme="http://wangbin5920.github.io/tags/HTML/"/>
+    
+    <category term="CSS" scheme="http://wangbin5920.github.io/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Mybatis</title>
     <link href="http://wangbin5920.github.io/2021/06/15/mybatis/"/>
     <id>http://wangbin5920.github.io/2021/06/15/mybatis/</id>
     <published>2021-06-14T16:00:00.000Z</published>
-    <updated>2022-04-07T02:28:57.001Z</updated>
+    <updated>2022-04-07T02:31:44.186Z</updated>
     
     
       
