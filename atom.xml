@@ -6,7 +6,7 @@
   <link href="http://wangbin5920.github.io/atom.xml" rel="self"/>
   
   <link href="http://wangbin5920.github.io/"/>
-  <updated>2022-04-07T03:41:15.073Z</updated>
+  <updated>2022-04-07T04:28:13.914Z</updated>
   <id>http://wangbin5920.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Request&amp;Response</title>
+    <link href="http://wangbin5920.github.io/2021/07/05/request-response/"/>
+    <id>http://wangbin5920.github.io/2021/07/05/request-response/</id>
+    <published>2021-07-04T16:00:00.000Z</published>
+    <updated>2022-04-07T04:28:13.914Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Request-amp-Response&quot;&gt;&lt;a href=&quot;#Request-amp-Response&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="后端" scheme="http://wangbin5920.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
+    
+    
+    <category term="Request" scheme="http://wangbin5920.github.io/tags/Request/"/>
+    
+    <category term="Response" scheme="http://wangbin5920.github.io/tags/Response/"/>
+    
+  </entry>
   
   <entry>
     <title>HTTP&amp;Tomcat&amp;Servlet</title>
