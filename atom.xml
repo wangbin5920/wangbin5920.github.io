@@ -6,7 +6,7 @@
   <link href="http://wangbin5920.github.io/atom.xml" rel="self"/>
   
   <link href="http://wangbin5920.github.io/"/>
-  <updated>2022-04-07T03:07:54.299Z</updated>
+  <updated>2022-04-07T03:26:18.742Z</updated>
   <id>http://wangbin5920.github.io/</id>
   
   <author>
@@ -17,18 +17,43 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>JDBC</title>
+    <link href="http://wangbin5920.github.io/2021/06/25/jdbc/"/>
+    <id>http://wangbin5920.github.io/2021/06/25/jdbc/</id>
+    <published>2021-06-24T16:00:00.000Z</published>
+    <updated>2022-04-07T03:26:18.742Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;JDBC&quot;&gt;&lt;a href=&quot;#JDBC&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="数据库" scheme="http://wangbin5920.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+    <category term="JDBC" scheme="http://wangbin5920.github.io/tags/JDBC/"/>
+    
+  </entry>
+  
+  <entry>
     <title>HTML</title>
     <link href="http://wangbin5920.github.io/2021/06/20/html/"/>
     <id>http://wangbin5920.github.io/2021/06/20/html/</id>
     <published>2021-06-19T16:00:00.000Z</published>
-    <updated>2022-04-07T03:07:54.299Z</updated>
+    <updated>2022-04-07T03:10:19.214Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;HTML-amp-CSS&quot;&gt;&lt;a href=&quot;#HTML-amp-CSS&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;HTML&quot;&gt;&lt;a href=&quot;#HTML&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -38,8 +63,6 @@
     
     
     <category term="HTML" scheme="http://wangbin5920.github.io/tags/HTML/"/>
-    
-    <category term="CSS" scheme="http://wangbin5920.github.io/tags/CSS/"/>
     
   </entry>
   
