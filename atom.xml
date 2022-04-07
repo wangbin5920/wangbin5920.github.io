@@ -6,7 +6,7 @@
   <link href="http://wangbin5920.github.io/atom.xml" rel="self"/>
   
   <link href="http://wangbin5920.github.io/"/>
-  <updated>2022-04-07T03:26:18.742Z</updated>
+  <updated>2022-04-07T03:41:15.073Z</updated>
   <id>http://wangbin5920.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HTTP&amp;Tomcat&amp;Servlet</title>
+    <link href="http://wangbin5920.github.io/2021/06/30/http-tomcat-servlet/"/>
+    <id>http://wangbin5920.github.io/2021/06/30/http-tomcat-servlet/</id>
+    <published>2021-06-29T16:00:00.000Z</published>
+    <updated>2022-04-07T03:41:15.073Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;HTTP-amp-Tomcat-amp-Servlet&quot;&gt;&lt;a href=&quot;#HTTP-amp-Tomcat-amp-Servlet&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="数据库" scheme="http://wangbin5920.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+    <category term="HTTP" scheme="http://wangbin5920.github.io/tags/HTTP/"/>
+    
+    <category term="Tomcat" scheme="http://wangbin5920.github.io/tags/Tomcat/"/>
+    
+    <category term="Servlet" scheme="http://wangbin5920.github.io/tags/Servlet/"/>
+    
+  </entry>
   
   <entry>
     <title>JDBC</title>
