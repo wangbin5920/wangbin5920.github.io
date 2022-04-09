@@ -207,7 +207,7 @@
     <link href="http://wangbin5920.github.io/2021/08/15/springboot-kai-fa/"/>
     <id>http://wangbin5920.github.io/2021/08/15/springboot-kai-fa/</id>
     <published>2021-08-14T16:00:00.000Z</published>
-    <updated>2022-04-09T02:37:00.279Z</updated>
+    <updated>2022-04-09T02:42:56.562Z</updated>
     
     
       
@@ -225,9 +225,9 @@
     
     <category term="Java" scheme="http://wangbin5920.github.io/tags/Java/"/>
     
-    <category term="Spring" scheme="http://wangbin5920.github.io/tags/Spring/"/>
-    
     <category term="SpringBoot 开发" scheme="http://wangbin5920.github.io/tags/SpringBoot-%E5%BC%80%E5%8F%91/"/>
+    
+    <category term="SpringBoot" scheme="http://wangbin5920.github.io/tags/SpringBoot/"/>
     
   </entry>
   
@@ -236,7 +236,7 @@
     <link href="http://wangbin5920.github.io/2021/08/10/springboot-yun-wei/"/>
     <id>http://wangbin5920.github.io/2021/08/10/springboot-yun-wei/</id>
     <published>2021-08-09T16:00:00.000Z</published>
-    <updated>2022-04-08T07:33:03.707Z</updated>
+    <updated>2022-04-09T02:43:03.570Z</updated>
     
     
       
@@ -254,9 +254,9 @@
     
     <category term="Java" scheme="http://wangbin5920.github.io/tags/Java/"/>
     
-    <category term="Spring" scheme="http://wangbin5920.github.io/tags/Spring/"/>
-    
     <category term="SpringBoot 运维" scheme="http://wangbin5920.github.io/tags/SpringBoot-%E8%BF%90%E7%BB%B4/"/>
+    
+    <category term="SpringBoot" scheme="http://wangbin5920.github.io/tags/SpringBoot/"/>
     
   </entry>
   
@@ -265,7 +265,7 @@
     <link href="http://wangbin5920.github.io/2021/08/05/springboot-ji-chu/"/>
     <id>http://wangbin5920.github.io/2021/08/05/springboot-ji-chu/</id>
     <published>2021-08-04T16:00:00.000Z</published>
-    <updated>2022-04-08T07:33:17.938Z</updated>
+    <updated>2022-04-09T02:42:47.198Z</updated>
     
     
       
@@ -283,9 +283,9 @@
     
     <category term="Java" scheme="http://wangbin5920.github.io/tags/Java/"/>
     
-    <category term="Spring" scheme="http://wangbin5920.github.io/tags/Spring/"/>
-    
     <category term="SpringBoot 基础" scheme="http://wangbin5920.github.io/tags/SpringBoot-%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="SpringBoot" scheme="http://wangbin5920.github.io/tags/SpringBoot/"/>
     
   </entry>
   
